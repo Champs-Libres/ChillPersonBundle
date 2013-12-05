@@ -12,7 +12,7 @@ use CL\Chill\PersonBundle\Entity\Person;
  *
  * @author Julien Fastré <julien arobase fastre point info>
  */
-class LoadPeople extends AbstractFixture {
+class LoadPeople extends AbstractFixture implements OrderedFixtureInterface {
     
     public function prepare() {
 
